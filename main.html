@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="get">
   <label for="#name" >Name</label>
   <input type="text" id="#name" name="fname" required><br>
 		
@@ -27,9 +27,16 @@
   <option value="volvo">Apple</option>
   <option value="saab">Asus</option>
   <option value="opel">HP</option>
-</select>
+</select><br>
 
+		<label for="#dob">DOB</label>
+  <input type="date" id="#dob" name="#dob" required><br>
+
+		<label for="pwd">Password</label>
+  <input type="password" id="pwd" name="pwd" minlength="8" required><br><br>
+  
 		
+		<input type="submit">
 </form>
     <script type="text/javascript" src="./script.js">
 </script>
